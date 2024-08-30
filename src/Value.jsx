@@ -2,7 +2,7 @@ import ValueSection from "./ValueSection";
 
 export default function Value() {
   return (
-    <section className="mt-[32px]">
+    <section className="mt-[32px] flex-row sm:mt-0 xl:mt-0 xl:flex xl:w-full xl:justify-center xl:gap-[32px]">
       <ValueSection
         number={1}
         title={"Actionable insights"}

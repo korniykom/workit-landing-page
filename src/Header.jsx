@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <header className="mb-[56px] flex h-[67px] flex-row items-end justify-between">
+    <header className="flex h-[67px] flex-row items-end justify-between xl:h-[91px]">
       <svg
-        className="ml-5"
+        className="ml-5 sm:ml-11 xl:ml-40"
         xmlns="http://www.w3.org/2000/svg"
         width="97"
         height="26"
@@ -14,7 +14,7 @@ export default function Header() {
         />
       </svg>
       <a
-        className="mr-5 items-end border-b-[3px] border-[#44FFA1] font-manropeBold text-[1.125rem] text-white"
+        className="mr-5 items-end border-b-[3px] border-[#44FFA1] font-manropeBold text-[1.125rem] text-white sm:mr-11 xl:mr-40"
         href="#"
       >
         Apply for access
