@@ -9,3 +9,11 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: FrauncesSemiBold;
+  src: url("src/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

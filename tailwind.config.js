@@ -6,7 +6,10 @@ export default {
       width: {
         custom: "calc(288% + 1.3px)",
       },
-      fontFamily: { manropeBold: "ManropeBold" },
+      fontFamily: {
+        manropeBold: "ManropeBold",
+        frauncesSemiBold: "frauncesSemiBold",
+      },
     },
   },
   plugins: [],
