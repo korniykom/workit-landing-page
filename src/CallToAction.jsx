@@ -1,7 +1,7 @@
 import image from "./assets/images/image-founder.webp";
 export default function CallToAction() {
   return (
-    <section className="mt-[112px] flex flex-col items-center justify-center overflow-hidden sm:mx-11 sm:items-start xl:mx-[160px]">
+    <section className="mt-[112px] flex flex-col justify-center overflow-hidden sm:mx-11 sm:items-start xl:mx-[160px]">
       <img
         className="h-[280px] w-[280px] xl:h-[477px] xl:w-[477px]"
         src={image}
@@ -19,7 +19,7 @@ export default function CallToAction() {
         </p>
 
         <a
-          className="h-[56px] bg-[#44FFA1] px-[32px] py-[14px] font-manropeBold text-[#24053E] sm:mx-[3rem] sm:text-[18px] sm:leading-[32.4px] xl:ml-[64px] xl:w-[207px]"
+          className="h-[56px] bg-[#44FFA1] px-[32px] py-[14px] font-manropeBold text-[#24053E] hover:border-[2px] hover:border-[#44FFA1] hover:bg-transparent hover:text-[#44FFA1] sm:mx-[3rem] sm:text-[18px] sm:leading-[32.4px] xl:ml-[64px] xl:w-[207px]"
           href="#"
         >
           Apply for access

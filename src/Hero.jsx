@@ -81,7 +81,7 @@ export default function Hero() {
           </svg>
         </div>
         <a
-          className="lx:w-[162px] flex h-[53px] w-[151px] items-center justify-center bg-[#44FFA1] font-manropeBold text-[1rem] sm:text-[1.125rem] xl:h-[56px]"
+          className="lx:w-[162px] flex h-[53px] w-[151px] items-center justify-center border-[2px] border-[#44FFA1] bg-[#44FFA1] font-manropeBold text-[1rem] hover:bg-transparent hover:text-[#44FFA1] sm:text-[1.125rem] xl:h-[56px]"
           href="#"
         >
           Learn more
