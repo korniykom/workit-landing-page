@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         manropeBold: "ManropeBold",
         frauncesSemiBold: "frauncesSemiBold",
+        manropeRegular: "Manrope",
       },
     },
   },
