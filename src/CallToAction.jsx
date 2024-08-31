@@ -1,17 +1,17 @@
 import image from "./assets/images/image-founder.webp";
 export default function CallToAction() {
   return (
-    <section className="mt-[112px] flex flex-col justify-center overflow-hidden sm:mx-11 sm:items-start xl:mx-[160px]">
+    <section className="mt-[112px] flex flex-col justify-center overflow-hidden sm:mx-11 sm:items-start xl:mx-[160px] xl:items-center">
       <img
-        className="h-[280px] w-[280px] xl:h-[477px] xl:w-[477px]"
+        className="h-[280px] w-[280px] xl:h-[477px] xl:w-[477px] xl:translate-x-[-67.5%] xl:translate-y-[1%]"
         src={image}
         alt="Founder"
       />
-      <div className="h-[393px] w-[90%] translate-y-[-12%] bg-[#24053E] text-center text-white sm:w-[504px] sm:translate-x-[35%] sm:translate-y-[-27.5%] sm:text-start xl:h-[411px] xl:w-[730px] xl:translate-x-[53.5%] xl:translate-y-[-74%]">
-        <h2 className="font-frauncesSemiBold my-[2rem] text-[2rem] leading-[2.4rem] sm:mx-[3rem] sm:mb-[3rem] sm:mt-[3.5rem] sm:text-[3rem] xl:mx-[64px] xl:mt-[78px] xl:text-[56px]">
+      <div className="h-[393px] w-[90%] translate-y-[-12%] bg-[#24053E] text-center text-white sm:w-[504px] sm:translate-x-[35%] sm:translate-y-[-27.5%] sm:text-start xl:h-[411px] xl:w-[730px] xl:translate-x-[27%] xl:translate-y-[-74%]">
+        <h2 className="my-[2rem] font-frauncesSemiBold text-[2rem] leading-[2.4rem] sm:mx-[3rem] sm:mb-[3rem] sm:mt-[3.5rem] sm:text-[3rem] xl:mx-[64px] xl:mt-[78px] xl:text-[56px]">
           Be the first to test
         </h2>
-        <p className="font-manropeRegular mb-[2.5rem] px-[2rem] text-[1rem] leading-[1.8rem] sm:px-[3rem] xl:px-[64px] xl:text-[18px] xl:leading-[32.4px]">
+        <p className="mb-[2.5rem] px-[2rem] font-manropeRegular text-[1rem] leading-[1.8rem] sm:px-[3rem] xl:px-[64px] xl:text-[18px] xl:leading-[32.4px]">
           Hi, I'm Louis Graham, the founder of the company. Book a demo call
           with me to become a beta tester for our app and kickstart your
           company. Apply for access below and I’ll be in touch to schedule a

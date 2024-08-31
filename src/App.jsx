@@ -13,6 +13,7 @@ export default function App() {
         <Value />
       </div>
       <CallToAction />
+
       <Footer />
     </div>
   );
