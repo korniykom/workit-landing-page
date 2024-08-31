@@ -1,7 +1,7 @@
 import image from "./assets/images/image-founder.webp";
 export default function CallToAction() {
   return (
-    <section className="mt-[112px] flex flex-col justify-center overflow-hidden sm:mx-11 sm:items-start xl:mx-[160px] xl:items-center">
+    <section className="mt-[112px] flex flex-col items-center justify-center overflow-hidden sm:mx-11 sm:items-start xl:mx-[160px] xl:items-center">
       <img
         className="h-[280px] w-[280px] xl:h-[477px] xl:w-[477px] xl:translate-x-[-67.5%] xl:translate-y-[1%]"
         src={image}
